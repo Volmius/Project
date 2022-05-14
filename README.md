@@ -19,7 +19,7 @@
 
 ## :technologist: Технологии и инструменты
 
-<p  align="center"
+<p  align="center">
 
 <code><img width="5%" title="IntelliJ IDEA" src="images/logo/Idea.svg"></code>
 <code><img width="5%" title="Java" src="images/logo/Java.svg"></code>
@@ -63,22 +63,21 @@ gradle clean test
 
 
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](http://51.250.107.11:8080/login?from=%2F)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins]
 
-+ *Перейдите по ссылке [Jenkins](http://51.250.107.11:8080/login?from=%2F)*
++ *Перейдите в [Jenkins]*
 + *Введите логин ***user****
-+ *Введите пароль ***1qaz!QAZ****
-+ *[Перейти в QATESTPROJECT](http://51.250.107.11:8080/job/QATESTPROJECT/)*
++ *Введите пароль ***1234****
 + *Для запуска сборки необходимо нажать на кнопку <code><strong>*Собрать с параметрами (Build with Parameters)*</strong></code>.*
 + *Выбрать необходимые параметры*
 + *Нажать на кнопку <code><strong>*Собрать (Build)*</strong></code>.*
 
 > Запуск тестов в Jenkins.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/Test.gif">
+  <img title="Selenoid Video" src="images/video/viddeo.mp4">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](http://51.250.107.11:8080/job/QATESTPROJECT/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report]
 
 ### :pushpin: Общая информация
 
@@ -99,7 +98,7 @@ gradle clean test
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
-> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов в [Telegram канал](https://t.me/+utbhTYmAL7gxZWNi)
+> После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов в [Telegram канал]
 
 <p align="center">
 <img title="Telegram Notifications" src="images/screens/telegram1.png">
@@ -109,7 +108,7 @@ gradle clean test
 
 > К каждому тесту в отчете прилагается видео.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/Tets2.gif">
+  <img title="Selenoid Video" src="images/video/test.mp4">
 </p>
 
 

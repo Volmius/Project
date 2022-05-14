@@ -17,17 +17,9 @@ import static io.qameta.allure.Allure.step;
 import static com.codeborne.selenide.Selenide.open;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Owner("Dmitriy Khristich")
-@Epic("QA-1. Создание демонстрационных автотестов на примере поставщика Всеплатежи. Релиз 1")
-@Feature("Добавление платежа в корзину")
-@Story("QA-1.1. Актуализация тестовых сценариев при редактировании платежа из корзины")
 
 public class EditOekPageTest extends TestBase{
 
-//     @BeforeAll
-//     static void configureBaseUrl() {
-//         Configuration.baseUrl = Project.config.webUrl2();
-//     }
 
     @Test
     @DisplayName("Проверка сохранения изменений при редактировании платежа из корзины")

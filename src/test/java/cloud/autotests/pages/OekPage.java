@@ -20,14 +20,6 @@ public class OekPage extends Page {
             formControlAmountField = $x("//label[starts-with(text(),'Вид платежа и сумма')]/..//input[@class='form-control amountField ']");
 
 
-    public void pasteData(String account, String amount) {
-        type(accountNumberField, account);
-        forwardBtn.click();
-        type(energyAmount, amount);
-        type(hotWaterAmount, amount);
-        type(heatingAmount, amount);
-        goToPayBtn.click();
-    }
 
     public void pasteData(String account, String lastName, String firstName, String patronymic, String amount) {
         type(accountNumberField, account);
