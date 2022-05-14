@@ -74,7 +74,7 @@ gradle clean test
 
 > Запуск тестов в Jenkins.
 <p align="center">
-  <img title="Selenoid Video" src="images/video/viddeo.mp4">
+  <img title="Selenoid Video" src="images/video/vid.gif">
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report]
@@ -108,7 +108,7 @@ gradle clean test
 
 > К каждому тесту в отчете прилагается видео.
 <p align="center">
-  <img title="Selenoid Video" src="images/video/test.mp4">
+  <img title="Selenoid Video" src="images/video/test.gif">
 </p>
 
 
